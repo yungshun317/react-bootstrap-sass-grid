@@ -13,6 +13,10 @@ export default function App() {
         marginRight: "40px"
     };
 
+    const imageStyle = {
+        width: "100%"
+    }
+
     return (
         <>
             <div className="bg-light">
@@ -48,7 +52,7 @@ export default function App() {
                 <div className="row">
                     <div className="col-md-4 col-sm-12">
                         <div className="bg-danger">
-                            <img src="https://picsum.photos/200/300" style={{ width: "100%" }} />
+                            <img src="https://picsum.photos/200/300" style={imageStyle} />
                             <div style={cardBodyStyle}>
                                 <h2 style={fontStyle}>Lorem
                                     Ipsum</h2>
@@ -61,7 +65,7 @@ export default function App() {
                     </div>
                     <div className="col-md-4 col-sm-12">
                         <div className="bg-success">
-                            <img src="https://picsum.photos/200/300" style={{ width: "100%" }} />
+                            <img src="https://picsum.photos/200/300" style={imageStyle} />
                             <div style={cardBodyStyle}>
                                 <h2 style={fontStyle}>Lorem Ipsum</h2>
                                 <p style={fontStyle}>Lorem ipsum
@@ -73,7 +77,7 @@ export default function App() {
                     </div>
                     <div className="col-md-4 col-sm-12">
                         <div className="bg-primary">
-                            <img src="https://picsum.photos/200/300" style={{ width: "100%" }} />
+                            <img src="https://picsum.photos/200/300" style={imageStyle} />
                             <div style={cardBodyStyle}>
                                 <h2 style={fontStyle}>Lorem Ipsum</h2>
                                 <p style={fontStyle}>Lorem ipsum
