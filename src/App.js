@@ -90,6 +90,136 @@ export default function App() {
                     </div>
                 </div>
             </div>
+            <div className="container">
+                <div className="row">
+                    <div className="col-lg-4 col-md-12">
+                        <div className="bg-danger" style="overflow: auto">
+                            <h2 style="display: block; margin-block-start: 16px; margin-block-end: 16px">Lorem
+                                Ipsum</h2>
+                            <p style="display: block; margin-block-start: 16px; margin-block-end: 16px">Lorem ipsum
+                                dolor sit amet, consectetur adipiscing elit. Aliquam finibus quis massa vel tempus. Nunc
+                                laoreet dolor sit amet massa pulvinar, ac tempor nibh pretium. Quisque interdum dolor eu
+                                varius varius.</p>
+                        </div>
+                    </div>
+                    <div className="col-lg-4 col-sm-6 col-xs-12">
+                        <div className="bg-success">
+                            <div className="row">
+                                <div className="col-md-3">
+                                    <div>
+                                        <h2 style="display: block; margin-block-start: 16px; margin-block-end: 16px">Lorem
+                                            Ipsum</h2>
+                                    </div>
+                                </div>
+                                <div className="col-md-9">
+                                    <div>
+                                        <h2 style="display: block; margin-block-start: 16px; margin-block-end: 16px">Lorem
+                                            Ipsum</h2>
+                                        <p style="display: block; margin-block-start: 16px; margin-block-end: 16px">Lorem
+                                            ipsum dolor sit amet, consectetur adipiscing elit. Aliquam finibus quis
+                                            massa vel tempus. Nunc laoreet dolor sit amet massa pulvinar, ac tempor nibh
+                                            pretium. Quisque interdum dolor eu varius varius.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="row">
+                                <div className="col-md-3">
+                                    <div>
+                                        <h2 style="display: block; margin-block-start: 16px; margin-block-end: 16px">Lorem
+                                            Ipsum</h2>
+                                    </div>
+                                </div>
+                                <div className="col-md-9">
+                                    <div>
+                                        <h2 style="display: block; margin-block-start: 16px; margin-block-end: 16px">Lorem
+                                            Ipsum</h2>
+                                        <p style="display: block; margin-block-start: 16px; margin-block-end: 16px">Lorem
+                                            ipsum dolor sit amet, consectetur adipiscing elit. Aliquam finibus quis
+                                            massa vel tempus. Nunc laoreet dolor sit amet massa pulvinar, ac tempor nibh
+                                            pretium. Quisque interdum dolor eu varius varius.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="row">
+                                <div className="col-md-3">
+                                    <div>
+                                        <h2 style="display: block; margin-block-start: 16px; margin-block-end: 16px">Lorem
+                                            Ipsum</h2>
+                                    </div>
+                                </div>
+                                <div className="col-md-9">
+                                    <div>
+                                        <h2 style="display: block; margin-block-start: 16px; margin-block-end: 16px">Lorem
+                                            Ipsum</h2>
+                                        <p style="display: block; margin-block-start: 16px; margin-block-end: 16px">Lorem
+                                            ipsum dolor sit amet, consectetur adipiscing elit. Aliquam finibus quis
+                                            massa vel tempus. Nunc laoreet dolor sit amet massa pulvinar, ac tempor nibh
+                                            pretium. Quisque interdum dolor eu varius varius.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-lg-4 col-sm-6 col-xs-12">
+                        <div className="bg-primary">
+                            <div className="row">
+                                <div className="col-md-3">
+                                    <div>
+                                        <h2 style="display: block; margin-block-start: 16px; margin-block-end: 16px">Lorem
+                                            Ipsum</h2>
+                                    </div>
+                                </div>
+                                <div className="col-md-9">
+                                    <div>
+                                        <h2 style="display: block; margin-block-start: 16px; margin-block-end: 16px">Lorem
+                                            Ipsum</h2>
+                                        <p style="display: block; margin-block-start: 16px; margin-block-end: 16px">Lorem
+                                            ipsum dolor sit amet, consectetur adipiscing elit. Aliquam finibus quis
+                                            massa vel tempus. Nunc laoreet dolor sit amet massa pulvinar, ac tempor nibh
+                                            pretium. Quisque interdum dolor eu varius varius.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="row">
+                                <div className="col-md-3">
+                                    <div>
+                                        <h2 style="display: block; margin-block-start: 16px; margin-block-end: 16px">Lorem
+                                            Ipsum</h2>
+                                    </div>
+                                </div>
+                                <div className="col-md-9">
+                                    <div>
+                                        <h2 style="display: block; margin-block-start: 16px; margin-block-end: 16px">Lorem
+                                            Ipsum</h2>
+                                        <p style="display: block; margin-block-start: 16px; margin-block-end: 16px">Lorem
+                                            ipsum dolor sit amet, consectetur adipiscing elit. Aliquam finibus quis
+                                            massa vel tempus. Nunc laoreet dolor sit amet massa pulvinar, ac tempor nibh
+                                            pretium. Quisque interdum dolor eu varius varius.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="row">
+                                <div className="col-md-3">
+                                    <div>
+                                        <h2 style="display: block; margin-block-start: 16px; margin-block-end: 16px">Lorem
+                                            Ipsum</h2>
+                                    </div>
+                                </div>
+                                <div className="col-md-9">
+                                    <div>
+                                        <h2 style="display: block; margin-block-start: 16px; margin-block-end: 16px">Lorem
+                                            Ipsum</h2>
+                                        <p style="display: block; margin-block-start: 16px; margin-block-end: 16px">Lorem
+                                            ipsum dolor sit amet, consectetur adipiscing elit. Aliquam finibus quis
+                                            massa vel tempus. Nunc laoreet dolor sit amet massa pulvinar, ac tempor nibh
+                                            pretium. Quisque interdum dolor eu varius varius.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </>
     );
 }
