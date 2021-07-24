@@ -1,6 +1,18 @@
 import React from "react";
 
 export default function App() {
+    const fontStyle = {
+        display: "block",
+        marginBlockStart: "16px",
+        marginBlockEnd: "16px"
+    };
+
+    const cardBodyStyle = {
+        overflow: "auto",
+        marginLeft: "40px",
+        marginRight: "40px"
+    };
+
     return (
         <>
             <div className="bg-light">
@@ -8,16 +20,8 @@ export default function App() {
                     <div className="row">
                         <div className="col-md-6 col-sm-12 bg-light">
                             <div>
-                                <h2 style={{
-                                    display: "block",
-                                    marginBlockStart: "16px",
-                                    marginBlockEnd: "16px"
-                                }}>Lorem Ipsum</h2>
-                                <p style={{
-                                    display: "block",
-                                    marginBlockStart: "16px",
-                                    marginBlockEnd: "16px"
-                                }}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam finibus quis massa vel tempus. Nunc laoreet dolor sit amet massa pulvinar, ac tempor nibh pretium. Quisque interdum dolor eu varius varius.</p>
+                                <h2 style={fontStyle}>Lorem Ipsum</h2>
+                                <p style={fontStyle}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam finibus quis massa vel tempus. Nunc laoreet dolor sit amet massa pulvinar, ac tempor nibh pretium. Quisque interdum dolor eu varius varius.</p>
                             </div>
                         </div>
                     </div>
@@ -27,16 +31,8 @@ export default function App() {
                 <div className="row">
                     <div className="col-md-6 col-sm-12">
                         <div className="bg-danger">
-                            <h2 style={{
-                                display: "block",
-                                marginBlockStart: "16px",
-                                marginBlockEnd: "16px"
-                            }}>Lorem Ipsum</h2>
-                            <p style={{
-                                display: "block",
-                                marginBlockStart: "16px",
-                                marginBlockEnd: "16px"
-                            }}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam finibus quis massa vel tempus. Nunc
+                            <h2 style={fontStyle}>Lorem Ipsum</h2>
+                            <p style={fontStyle}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam finibus quis massa vel tempus. Nunc
                                 laoreet dolor sit amet massa pulvinar, ac tempor nibh pretium. Quisque interdum dolor eu
                                 varius varius.</p>
                         </div>
@@ -52,11 +48,11 @@ export default function App() {
                 <div className="row">
                     <div className="col-md-4 col-sm-12">
                         <div className="bg-danger">
-                            <img src="https://picsum.photos/200/300" style="width: 100%"/>
-                            <div style="overflow: auto; margin-left: 40px; margin-right: 40px">
-                                <h2 style="display: block; margin-block-start: 16px; margin-block-end: 16px">Lorem
+                            <img src="https://picsum.photos/200/300" style={{ width: "100%" }} />
+                            <div style={cardBodyStyle}>
+                                <h2 style={fontStyle}>Lorem
                                     Ipsum</h2>
-                                <p style="display: block; margin-block-start: 16px; margin-block-end: 16px">Lorem ipsum
+                                <p style={fontStyle}>Lorem ipsum
                                     dolor sit amet, consectetur adipiscing elit. Aliquam finibus quis massa vel tempus.
                                     Nunc laoreet dolor sit amet massa pulvinar, ac tempor nibh pretium. Quisque interdum
                                     dolor eu varius varius.</p>
@@ -65,11 +61,10 @@ export default function App() {
                     </div>
                     <div className="col-md-4 col-sm-12">
                         <div className="bg-success">
-                            <img src="https://picsum.photos/200/300" style="width: 100%"/>
-                            <div style="overflow: auto; margin-left: 40px; margin-right: 40px">
-                                <h2 style="display: block; margin-block-start: 16px; margin-block-end: 16px">Lorem
-                                    Ipsum</h2>
-                                <p style="display: block; margin-block-start: 16px; margin-block-end: 16px">Lorem ipsum
+                            <img src="https://picsum.photos/200/300" style={{ width: "100%" }} />
+                            <div style={cardBodyStyle}>
+                                <h2 style={fontStyle}>Lorem Ipsum</h2>
+                                <p style={fontStyle}>Lorem ipsum
                                     dolor sit amet, consectetur adipiscing elit. Aliquam finibus quis massa vel tempus.
                                     Nunc laoreet dolor sit amet massa pulvinar, ac tempor nibh pretium. Quisque interdum
                                     dolor eu varius varius.</p>
@@ -78,11 +73,10 @@ export default function App() {
                     </div>
                     <div className="col-md-4 col-sm-12">
                         <div className="bg-primary">
-                            <img src="https://picsum.photos/200/300" style="width: 100%"/>
-                            <div style="overflow: auto; margin-left: 40px; margin-right: 40px">
-                                <h2 style="display: block; margin-block-start: 16px; margin-block-end: 16px">Lorem
-                                    Ipsum</h2>
-                                <p style="display: block; margin-block-start: 16px; margin-block-end: 16px">Lorem ipsum
+                            <img src="https://picsum.photos/200/300" style={{ width: "100%" }} />
+                            <div style={cardBodyStyle}>
+                                <h2 style={fontStyle}>Lorem Ipsum</h2>
+                                <p style={fontStyle}>Lorem ipsum
                                     dolor sit amet, consectetur adipiscing elit. Aliquam finibus quis massa vel tempus.
                                     Nunc laoreet dolor sit amet massa pulvinar, ac tempor nibh pretium. Quisque interdum
                                     dolor eu varius varius.</p>
