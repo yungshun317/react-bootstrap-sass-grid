@@ -1,4 +1,5 @@
 import React from "react";
+import { Container, Row, Col } from "react-bootstrap";
 
 export default function App() {
     const fontStyle = {
@@ -20,7 +21,7 @@ export default function App() {
     return (
         <>
             <div className="bg-light">
-                <div className="container">
+                <Container>
                     <div className="row">
                         <div className="col-md-6 col-sm-12 bg-light">
                             <div>
@@ -29,7 +30,7 @@ export default function App() {
                             </div>
                         </div>
                     </div>
-                </div>
+                </Container>
             </div>
             <div className="container">
                 <div className="row">
