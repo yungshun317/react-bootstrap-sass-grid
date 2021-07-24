@@ -1,7 +1,10 @@
 import React from "react";
 
+import Section from "./Section";
+
 export default function App() {
     return (
+        <>
         <div className="bg-light">
             <div className="container">
                 <div className="row">
@@ -22,5 +25,8 @@ export default function App() {
                 </div>
             </div>
         </div>
+        <Section>
+        </Section>
+        </>
     );
 }
