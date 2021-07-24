@@ -22,14 +22,14 @@ export default function App() {
         <>
             <div className="bg-light">
                 <Container>
-                    <div className="row">
-                        <div className="col-md-6 col-sm-12 bg-light">
+                    <Row>
+                        <Col sm={12} md={6} className="bg-light">
                             <div>
                                 <h2 style={fontStyle}>Lorem Ipsum</h2>
                                 <p style={fontStyle}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam finibus quis massa vel tempus. Nunc laoreet dolor sit amet massa pulvinar, ac tempor nibh pretium. Quisque interdum dolor eu varius varius.</p>
                             </div>
-                        </div>
-                    </div>
+                        </Col>
+                    </Row>
                 </Container>
             </div>
             <div className="container">
